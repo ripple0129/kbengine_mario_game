@@ -1,0 +1,21 @@
+  INFO root [2017-05-19 23:49:52,588] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-19 23:49:52,589] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO root [2017-05-19 23:49:52,589] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO root [2017-05-19 23:49:52,589] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO root [2017-05-19 23:49:52,591] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42247 )
+  INFO root [2017-05-19 23:49:52,592] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42247, SOMAXCONN=5.
+  INFO root [2017-05-19 23:49:52,592] - server-configs:
+  INFO root [2017-05-19 23:49:52,592] - 	internalAddr : 10.0.75.1:42247
+  INFO root [2017-05-19 23:49:52,592] - 	componentID : 6000
+  INFO root [2017-05-19 23:49:52,670] - Components::findLogger: found logger, addr:10.0.75.1:42187
+  INFO root [2017-05-19 23:49:52,670] - Components::addComponent: reset orderLog, uid=54001!
+  INFO root [2017-05-19 23:49:52,670] - Components::addComponent[logger], uid=54001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2017-05-19 23:49:52,676] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 3832381046F6BB9E6B3511A3C62FFB90. Config: Debug X86. Built: 01:51:05 May  3 2017. AppID: 6000. UID: 54001. PID: 7344 ----
+  INFO root [2017-05-19 23:49:52,677] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO root [2017-05-19 23:49:52,677] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-19 23:49:52,677] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2017-05-19 23:49:52,969] - ---- cellappmgr is running ----
+ DEBUG root [2017-05-19 23:49:52,969] - Components::process(): Request for the process of identity...
+  WARN root [2017-05-19 23:49:59,052] - Forwarding logs to logger[10.0.75.1:42187/0/0/0]...

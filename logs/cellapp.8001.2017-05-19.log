@@ -1,0 +1,35 @@
+  INFO root [0x00002e18] [2017-05-19 23:50:09,209] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002e18] [2017-05-19 23:50:09,210] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO root [0x00002e18] [2017-05-19 23:50:09,210] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO root [0x00002e18] [2017-05-19 23:50:09,210] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO root [0x00002e18] [2017-05-19 23:50:09,213] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42277 )
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42277, SOMAXCONN=5.
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - server-configs:
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	gameUpdateHertz : 10
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	defaultAoIRadius : 80
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	entryScriptFile : kbemain
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	internalAddr : 10.0.75.1:42277
+  INFO root [0x00002e18] [2017-05-19 23:50:09,216] - 	componentID : 8001
+  INFO root [0x00002e18] [2017-05-19 23:50:09,292] - Components::findLogger: found logger, addr:10.0.75.1:42187
+  INFO root [0x00002e18] [2017-05-19 23:50:09,292] - Components::addComponent: reset orderLog, uid=54001!
+  INFO root [0x00002e18] [2017-05-19 23:50:09,292] - Components::addComponent[logger], uid=54001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002e18] [2017-05-19 23:50:09,297] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 04E51CB81A3C893B16EAC5096FF91447. Config: Debug X86. Built: 01:52:35 May  3 2017. AppID: 8001. UID: 54001. PID: 7432 ----
+  INFO root [0x00002e18] [2017-05-19 23:50:09,297] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO root [0x00002e18] [2017-05-19 23:50:09,298] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002e18] [2017-05-19 23:50:09,298] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,430] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,431] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,432] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,435] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,435] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,436] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,470] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002e18] [2017-05-19 23:50:09,505] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:51) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00002e18] [2017-05-19 23:50:09,505] - Script::install(): KBExtra is successfully!
+  INFO root [0x00002e18] [2017-05-19 23:50:09,522] - TelnetServer server is running on port 50000
+  INFO root [0x00002e18] [2017-05-19 23:50:09,763] - ---- cellapp is running ----
+ DEBUG root [0x00002e18] [2017-05-19 23:50:09,763] - Components::process(): Request for the process of identity...
+  WARN root [0x00002e18] [2017-05-19 23:50:15,853] - Forwarding logs to logger[10.0.75.1:42187/0/0/0]...

@@ -1,0 +1,57 @@
+<root>
+	<!--
+		����������({assets}/res/server/kbengine.xml)
+
+		��������Ҫ�ı���������, ����({assets}/res/server/kbengine.xml)�и���kbe/res/server/kbengine_defs.xml�Ķ�Ӧ�������޸�,
+		�����ĺô��ǲ����ƻ�������Ĭ�����ã�������������ʱҲ����������ͻ���Լ��ڶ����߼���Ŀʱ����Ӱ�쵽��������Ŀ���á�
+		��ϸ˵�����ο���http://kbengine.org/cn/docs/configuration/kbengine.html
+	-->
+
+	<trace_packet>
+		<debug_type> 0 </debug_type>
+	</trace_packet>
+
+	<app_publish> 0 </app_publish>
+
+	<!-- defined => kbe/res/server/kbengine_defs.xml -->
+	<dbmgr>
+		<account_system>
+			<!-- �˺��һ���������
+				(Account reset password)
+			-->
+			<account_resetPassword>
+				<!-- �Ƿ񿪷���������
+					(Whether open reset password)
+				-->
+				<enable>	true	</enable>
+			</account_resetPassword>
+
+			<!-- �˺�ע������
+				(Account registration)
+			-->
+			<account_registration>
+				<!-- �Ƿ񿪷�ע��
+					(Whether open registration)
+				-->
+				<enable>	true	</enable>
+
+				<!-- ��¼�Ϸ�ʱ��Ϸ���ݿ��Ҳ�����Ϸ�˺����Զ�����
+					(When logged in, the game database can not find the game account is automatically created)
+				-->
+				<loginAutoCreate> true </loginAutoCreate>
+			</account_registration>
+		</account_system>
+
+		<databaseInterfaces>
+			<default>
+				<!-- <host> localhost </host> -->
+				<!-- <databaseName> kbe </databaseName> -->
+				<databaseName> coco2 </databaseName>
+			</default>
+		</databaseInterfaces>
+	</dbmgr>
+
+	<baseapp>
+		<backupPeriod> 500 </backupPeriod>
+	</baseapp>
+</root>

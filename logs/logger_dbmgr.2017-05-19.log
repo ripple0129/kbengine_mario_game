@@ -1,0 +1,259 @@
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 597] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 597] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 598] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 598] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 600] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42218 )
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 600] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42218, SOMAXCONN=5.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 600] - server-configs:
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 601] - 	internalAddr : 10.0.75.1:42218
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 601] - 	componentID : 4000
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 679] - Components::findLogger: found logger, addr:10.0.75.1:42187
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 680] - Components::addComponent: reset orderLog, uid=54001!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 680] - Components::addComponent[logger], uid=54001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 697] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: E9EE36CFB63818B5BD522FB93AAAA4AE. Config: Debug X86. Built: 01:51:05 May  3 2017. AppID: 4000. UID: 54001. PID: 12276 ----
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 697] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 697] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:38 698] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 383] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 384] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 384] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 386] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 386] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 387] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 419] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 451] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 451] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 474] - Dbmgr::initializeEnd: digest(8EA544894FD89B402A1A57E6BCB92726)
+  S_INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 474] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 474] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 474] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:49:39 728] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+9F5E2BDED929CDA6154914AC1379583F06C5A74F146E0FDCEF579423768F079154CB1499C4E8F33D72A772E2DDAD2D15A74E9E360933EEA44B1B7B74B4830F89D43FD1DCBA277B2B593A2675FAF85EAD6E71102CE75E9497A07ACAA8D6E2A6114DA74CC21CFCF254ECD8EC7C597C5A3DDC28BFD863C478F9AA327BA7ADCD9398
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 741] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 984] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 984] - DBUtil::createInterface[0x20ff32c]: interface=default, dbtype=mysql, ip=127.0.0.1, port=3306, currdatabase=coco2, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 151] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 165] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:49:40 379] - dbmgr.cpp:264: Profile scriptCall took 0.90 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 613] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 614] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 985] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:39 986] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 025] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 025] - DBThread::onStart(): 0x2495668!
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 064] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 064] - DBThread::onStart(): 0x2494e70!
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 077] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 078] - DBThread::onStart(): 0x24955e0!
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 085] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 085] - DBThread::onStart(): 0x24956f0!
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 116] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:49:40 116] - DBThread::onStart(): 0x2495118!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 178] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 178] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 186] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 187] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 187] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:40 365] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:47 714] - Components::process(): Found all the components!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:56 153] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42235, extaddr:nonsupport, extport:0,  from 10.0.75.1:42253/0/0/0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:56 153] - Components::addComponent: reset orderLog, uid=54001!
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:49:56 153] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:04 194] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42247, extaddr:nonsupport, extport:0,  from 10.0.75.1:42267/0/0/0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:04 194] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:15 053] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42261, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:42289/0/0/0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:15 053] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:18 073] - IDServer::allocRange: 1-1025.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:50:18 073] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:23 273] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42277, extaddr:nonsupport, extport:0,  from 10.0.75.1:42302/0/0/0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:23 273] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:24 453] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42283, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:42308/0/0/0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:24 453] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:50:27 472] - IDServer::allocRange: 1025-2049.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:50:27 472] - SyncAppDatasHandler::~SyncAppDatasHandler()
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:04 984] - Dbmgr::reqCreateAccount: 123.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:05 965] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=0, componentID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:06 545] - Dbmgr::queryAccount: 123, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:08 884] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:20 544] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:56:20 532] - DBTask::process(): took 0.67 seconds
+sql:(update tbl_Account set sm_appleNum=0,sm_barNum=0,sm_bellNum=0,sm_betPaid=0,sm_memberType=0,sm_money=3000,sm_orangeNum=0,sm_sevenNum=0,sm_snakemelonNum=0,sm_starNum=0,sm_watermelonNum=0,sm_winScore=0 where id=2)
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:23 363] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:23 804] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:24 063] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:24 263] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:24 763] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:24 963] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:25 163] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:25 384] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:25 464] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:26 284] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:26 364] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:26 463] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:26 683] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:26 963] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:28 864] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:30 484] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:30 583] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:30 764] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:31 163] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:31 383] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:31 583] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:31 663] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:32 284] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:32 864] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:33 084] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:33 183] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:33 284] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:33 483] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:33 583] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:34 863] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:37 783] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:39 583] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:42 543] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:56:42 512] - DBTask::process(): took 0.25 seconds
+sql:(update tbl_Account set sm_appleNum=0,sm_barNum=0,sm_bellNum=6,sm_betPaid=0,sm_memberType=0,sm_money=2860,sm_orangeNum=4,sm_sevenNum=0,sm_snakemelonNum=4,sm_starNum=0,sm_watermelonNum=0,sm_winScore=0 where id=2)
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:43 583] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:44 783] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:47 283] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:49 083] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:50 203] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:51 003] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:52 083] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:53 723] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:55 623] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:56:57 823] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:56:57 795] - DBTransaction::commit(): took 0.75 seconds
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:19 301] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:19 880] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:39 500] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:40 260] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:41 100] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:42 740] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:42 740] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:42 780] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:58:42 704] - DBTask::process(): took 0.56 seconds
+sql:(update tbl_Account set sm_appleNum=0,sm_barNum=0,sm_bellNum=0,sm_betPaid=5,sm_memberType=0,sm_money=2775,sm_orangeNum=0,sm_sevenNum=0,sm_snakemelonNum=1,sm_starNum=0,sm_watermelonNum=0,sm_winScore=0 where id=2)
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:58:42 723] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:42 880] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:43 559] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:43 580] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:43 780] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:44 100] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:44 780] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:44 979] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:45 080] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:45 779] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:47 880] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:48 780] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:49 860] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:49 981] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:50 180] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:50 799] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:50 881] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:51 180] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:51 379] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:51 680] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:51 780] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:51 880] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:53 379] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:58:53 357] - DBTransaction::commit(): took 0.90 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:58:53 371] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:53 760] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:53 779] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:58:53 742] - DBTransaction::commit(): took 0.37 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:58:53 746] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:53 979] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:54 380] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:55 779] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:56 900] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:57 799] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:58:58 479] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:00 170] - DBTransaction::commit(): took 1.11 seconds
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:00 206] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:00 219] - Dbmgr::writeEntity: Account(2).
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:00 206] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:00 679] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:01 820] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:01 809] - DBTransaction::commit(): took 0.45 seconds
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:02 080] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:04 899] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:06 079] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:07 380] - DBTask::process(): took 0.52 seconds
+sql:(update tbl_Account set sm_appleNum=0,sm_barNum=0,sm_bellNum=3,sm_betPaid=0,sm_memberType=0,sm_money=2300,sm_orangeNum=3,sm_sevenNum=0,sm_snakemelonNum=4,sm_starNum=0,sm_watermelonNum=0,sm_winScore=0 where id=2)
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:07 420] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:07 819] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:07 801] - DBTransaction::commit(): took 0.24 seconds
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:09 979] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:10 379] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:10 899] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:11 399] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:11 779] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:11 980] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:12 179] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:12 522] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:22 619] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:25 678] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:25 679] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:25 668] - DBTransaction::commit(): took 0.51 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:25 668] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:26 599] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:27 358] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:28 378] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:29 179] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:29 959] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:30 979] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:36 087] - DBTransaction::commit(): took 0.82 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:36 087] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:36 099] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:36 099] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:36 778] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:37 378] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:38 078] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:39 478] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:41 779] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:42 398] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:42 778] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:43 159] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:44 298] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:45 378] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:45 778] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:45 879] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 198] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 398] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 478] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 678] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 798] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:46 878] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:47 378] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:47 498] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:47 898] - Dbmgr::writeEntity: Account(2).
+ WARNING      dbmgr-1 54001 4000  [2017-05-19 23:59:52 378] - DBTransaction::commit(): took 0.72 seconds
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:52 379] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:52 382] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 54001 4000  [2017-05-19 23:59:52 386] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=1, dbid=2, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 398] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 399] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 399] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 399] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 698] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 898] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:52 978] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:53 078] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:53 478] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:53 678] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:53 778] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:53 879] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:54 698] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:56 398] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:57 698] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-19 23:59:59 878] - Dbmgr::writeEntity: Account(2).

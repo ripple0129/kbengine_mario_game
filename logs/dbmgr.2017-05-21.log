@@ -1,0 +1,5 @@
+ ERROR root [2017-05-21 22:47:13,484] - DBInterfaceMysql::processException: Thread 0x4a03b50 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+ ERROR root [2017-05-21 22:47:14,624] - DBInterfaceMysql::processException: Thread 0x4a01db0 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+ ERROR root [2017-05-21 22:47:14,922] - DBInterfaceMysql::processException: Thread 0x4a13698 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+ ERROR root [2017-05-21 22:47:15,323] - DBInterfaceMysql::processException: Thread 0x4a00b00 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+ ERROR root [2017-05-21 22:47:15,722] - DBInterfaceMysql::processException: Thread 0x4a105f0 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.

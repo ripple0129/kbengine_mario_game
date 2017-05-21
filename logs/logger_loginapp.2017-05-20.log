@@ -1,0 +1,18 @@
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:50 213] - Channel::handshake: websocket(127.0.0.1:44640/0/0/0) successfully!
+    INFO   loginapp-1 54001 9000  [2017-05-20 00:17:50 253] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:44640/0/0/0
+ WARNING   loginapp-1 54001 9000  [2017-05-20 00:17:50 253] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:44640/0/0/0
+  S_INFO   loginapp-1 54001 9000  [2017-05-20 00:17:50 254] - onRequestCreateAccount() 222
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:50 254] - Loginapp::_createAccount: accountName=222, passwordsize=3, type=1, oldType=3.
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:50 254] - PendingLoginMgr::add: 222, size=1.
+  S_INFO   loginapp-1 54001 9000  [2017-05-20 00:17:50 353] - onCreateAccountCallbackFromDB() accountName=222, errorno=0
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:50 353] - Loginapp::onReqCreateAccountResult: accountName=222, failedcode=0.
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:50 353] - PendingLoginMgr::remove: 222, size=0.
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:51 913] - Channel::handshake: websocket(127.0.0.1:44643/0/0/0) successfully!
+    INFO   loginapp-1 54001 9000  [2017-05-20 00:17:51 932] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:44643/0/0/0
+ WARNING   loginapp-1 54001 9000  [2017-05-20 00:17:51 932] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:44643/0/0/0
+  S_INFO   loginapp-1 54001 9000  [2017-05-20 00:17:51 932] - onReuqestLogin() loginName=222, clientType=5
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:51 932] - PendingLoginMgr::add: 222, size=1.
+    INFO   loginapp-1 54001 9000  [2017-05-20 00:17:51 932] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=222, datas=web-mobile.
+  S_INFO   loginapp-1 54001 9000  [2017-05-20 00:17:52 073] - onLoginCallbackFromDB() loginName=222, accountName=222, errorno=0
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:52 153] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=222, addr=10.0.75.1:20015.
+   DEBUG   loginapp-1 54001 9000  [2017-05-20 00:17:52 153] - PendingLoginMgr::remove: 222, size=0.

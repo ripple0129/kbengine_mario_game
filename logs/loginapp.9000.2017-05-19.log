@@ -1,0 +1,35 @@
+  INFO root [2017-05-19 23:50:12,539] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-05-19 23:50:12,541] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO root [2017-05-19 23:50:12,541] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO root [2017-05-19 23:50:12,541] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO root [2017-05-19 23:50:12,546] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:20013 )
+  INFO root [2017-05-19 23:50:12,546] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:20013, SOMAXCONN=128.
+  INFO root [2017-05-19 23:50:12,548] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42283 )
+  INFO root [2017-05-19 23:50:12,548] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42283, SOMAXCONN=128.
+  INFO root [2017-05-19 23:50:12,548] - server-configs:
+  INFO root [2017-05-19 23:50:12,548] - 	internalAddr : 10.0.75.1:42283
+  INFO root [2017-05-19 23:50:12,548] - 	externalAddr : 10.0.75.1:20013
+  INFO root [2017-05-19 23:50:12,548] - 	componentID : 9000
+  INFO root [2017-05-19 23:50:12,765] - Components::findLogger: found logger, addr:10.0.75.1:42187
+  INFO root [2017-05-19 23:50:12,765] - Components::addComponent: reset orderLog, uid=54001!
+  INFO root [2017-05-19 23:50:12,765] - Components::addComponent[logger], uid=54001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2017-05-19 23:50:12,774] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 68AB0B61C4A3C03CD0C0349737585262. Config: Debug X86. Built: 01:51:51 May  3 2017. AppID: 9000. UID: 54001. PID: 9324 ----
+  INFO root [2017-05-19 23:50:12,774] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO root [2017-05-19 23:50:12,775] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-05-19 23:50:12,775] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-05-19 23:50:12,943] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-05-19 23:50:12,944] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-05-19 23:50:12,945] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-05-19 23:50:12,950] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-05-19 23:50:12,950] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-05-19 23:50:12,951] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-05-19 23:50:12,991] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-05-19 23:50:13,029] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:50) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-05-19 23:50:13,030] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-05-19 23:50:13,035] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-05-19 23:50:13,036] - TelnetServer server is running on port 31000
+  INFO root [2017-05-19 23:50:13,273] - ---- loginapp is running ----
+ DEBUG root [2017-05-19 23:50:13,273] - Components::process(): Request for the process of identity...
+  WARN root [2017-05-19 23:50:19,350] - Forwarding logs to logger[10.0.75.1:42187/0/0/0]...

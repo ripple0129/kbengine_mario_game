@@ -1,0 +1,34 @@
+   ERROR      dbmgr-1 54001 4000  [2017-05-21 22:47:13 540] - DBInterfaceMysql::processException: Thread 0x4a03b50 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:13 574] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:13 811] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-21 22:47:13 811] - DBInterfaceMysql::processException: Thread 0x4a03b50 reconnected(coco2). Attempts = 1
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:13 882] - Dbmgr::writeEntity: Account(3).
+   ERROR      dbmgr-1 54001 4000  [2017-05-21 22:47:14 625] - DBInterfaceMysql::processException: Thread 0x4a01db0 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:14 666] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:14 715] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-21 22:47:14 715] - DBInterfaceMysql::processException: Thread 0x4a01db0 reconnected(coco2). Attempts = 1
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:14 743] - Dbmgr::writeEntity: Account(3).
+   ERROR      dbmgr-1 54001 4000  [2017-05-21 22:47:14 923] - DBInterfaceMysql::processException: Thread 0x4a13698 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 022] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:14 937] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:14 983] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-21 22:47:14 983] - DBInterfaceMysql::processException: Thread 0x4a13698 reconnected(coco2). Attempts = 1
+   ERROR      dbmgr-1 54001 4000  [2017-05-21 22:47:15 327] - DBInterfaceMysql::processException: Thread 0x4a00b00 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 331] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 404] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-21 22:47:15 404] - DBInterfaceMysql::processException: Thread 0x4a00b00 reconnected(coco2). Attempts = 1
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 443] - Dbmgr::writeEntity: Account(3).
+   ERROR      dbmgr-1 54001 4000  [2017-05-21 22:47:15 723] - DBInterfaceMysql::processException: Thread 0x4a105f0 lost connection to database. Exception: MySQL server has gone away. Attempting to reconnect.
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 728] - DBInterfaceMysql::attach: connect: 127.0.0.1:3306 starting...
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 822] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:15 773] - DBInterfaceMysql::attach: successfully! addr: 127.0.0.1:3306
+    INFO      dbmgr-1 54001 4000  [2017-05-21 22:47:15 773] - DBInterfaceMysql::processException: Thread 0x4a105f0 reconnected(coco2). Attempts = 1
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:16 542] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:18 243] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:18 942] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:19 043] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:19 443] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:19 542] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:19 742] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:19 942] - Dbmgr::writeEntity: Account(3).
+   DEBUG      dbmgr-1 54001 4000  [2017-05-21 22:47:20 142] - Dbmgr::writeEntity: Account(3).

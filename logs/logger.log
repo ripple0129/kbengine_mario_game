@@ -1,0 +1,445 @@
+ DEBUG [0x0000148c] [2017-05-15 04:58:10,212] - Components::process(): Request for the process of identity...
+  WARN [0x0000148c] [2017-05-15 04:58:13,605] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20980, errorno=10048
+ DEBUG [0x0000148c] [2017-05-15 04:58:13,911] - ServerApp::lookApp: 10.0.75.1:5420/0/0/0
+  INFO [0x0000148c] [2017-05-15 04:58:14,631] - Components::process(): Found all the components!
+  INFO [0x0000148c] [2017-05-15 04:58:17,751] - Logger::registerLogWatcher: addr=10.0.75.1:5427 is successfully!
+  INFO [0x0000148c] [2017-05-15 04:58:17,951] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5397, extaddr:nonsupport, extport:0,  from 10.0.75.1:5428/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:17,954] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x0000148c] [2017-05-15 04:58:17,954] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000148c] [2017-05-15 04:58:18,071] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5398, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:5429/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:18,071] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000148c] [2017-05-15 04:58:18,891] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5393, extaddr:nonsupport, extport:0,  from 10.0.75.1:5432/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:18,891] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000148c] [2017-05-15 04:58:18,991] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5395, extaddr:nonsupport, extport:0,  from 10.0.75.1:5433/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:18,992] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0000148c] [2017-05-15 04:58:19,311] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5399, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:5434/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:19,311] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x0000148c] [2017-05-15 04:58:19,610] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5396, extaddr:nonsupport, extport:0,  from 10.0.75.1:5437/0/0/0.
+  INFO [0x0000148c] [2017-05-15 04:58:19,611] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:23,542] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000032a4] [2017-05-15 04:59:23,543] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x000032a4] [2017-05-15 04:59:23,543] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x000032a4] [2017-05-15 04:59:23,543] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x000032a4] [2017-05-15 04:59:23,545] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:5547 )
+  INFO [0x000032a4] [2017-05-15 04:59:23,545] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:5547, SOMAXCONN=5.
+  INFO [0x000032a4] [2017-05-15 04:59:23,547] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:5549 )
+  INFO [0x000032a4] [2017-05-15 04:59:23,547] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:5549, SOMAXCONN=5.
+  INFO [0x000032a4] [2017-05-15 04:59:23,551] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 11508 ----
+  INFO [0x000032a4] [2017-05-15 04:59:23,558] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x000032a4] [2017-05-15 04:59:23,558] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000032a4] [2017-05-15 04:59:23,559] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,726] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,726] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,726] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,728] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,728] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,729] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,766] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x000032a4] [2017-05-15 04:59:23,842] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x000032a4] [2017-05-15 04:59:23,842] - Script::install(): KBExtra is successfully!
+S_INFO [0x000032a4] [2017-05-15 04:59:23,844] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000032a4] [2017-05-15 04:59:23,845] - TelnetServer server is running on port 34000
+  INFO [0x000032a4] [2017-05-15 04:59:23,845] - ---- logger is running ----
+ DEBUG [0x000032a4] [2017-05-15 04:59:23,845] - Components::process(): Request for the process of identity...
+  INFO [0x000032a4] [2017-05-15 04:59:29,945] - Logger::registerLogWatcher: addr=10.0.75.1:5575 is successfully!
+  INFO [0x000032a4] [2017-05-15 04:59:30,945] - Components::process(): Found all the components!
+  INFO [0x000032a4] [2017-05-15 04:59:31,765] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5551, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:5583/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:31,765] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x000032a4] [2017-05-15 04:59:31,765] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:32,585] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5548, extaddr:nonsupport, extport:0,  from 10.0.75.1:5584/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:32,585] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:32,585] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5553, extaddr:nonsupport, extport:0,  from 10.0.75.1:5585/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:32,585] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:32,984] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5552, extaddr:nonsupport, extport:0,  from 10.0.75.1:5586/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:32,984] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:33,105] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5554, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:5587/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:33,106] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000032a4] [2017-05-15 04:59:33,713] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5546, extaddr:nonsupport, extport:0,  from 10.0.75.1:5590/0/0/0.
+  INFO [0x000032a4] [2017-05-15 04:59:33,713] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x000032a4] [2017-05-15 04:59:58,004] - ServerApp::lookApp: 10.0.75.1:5647/0/0/0
+  INFO [0x000032a4] [2017-05-15 05:00:01,284] - Logger::registerLogWatcher: addr=10.0.75.1:5652 is successfully!
+  INFO [0x0000035c] [2017-05-15 05:01:31,783] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x0000035c] [2017-05-15 05:01:31,783] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x0000035c] [2017-05-15 05:01:31,783] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x0000035c] [2017-05-15 05:01:31,783] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x0000035c] [2017-05-15 05:01:31,807] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:5779 )
+  INFO [0x0000035c] [2017-05-15 05:01:31,817] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:5779, SOMAXCONN=5.
+  INFO [0x0000035c] [2017-05-15 05:01:31,819] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:5780 )
+  INFO [0x0000035c] [2017-05-15 05:01:31,819] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:5780, SOMAXCONN=5.
+  INFO [0x0000035c] [2017-05-15 05:01:31,823] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 1068 ----
+  INFO [0x0000035c] [2017-05-15 05:01:31,904] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x0000035c] [2017-05-15 05:01:31,904] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000035c] [2017-05-15 05:01:31,904] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,052] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,052] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,053] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,054] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,055] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,055] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,097] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x0000035c] [2017-05-15 05:01:32,144] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x0000035c] [2017-05-15 05:01:32,144] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000035c] [2017-05-15 05:01:32,148] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000035c] [2017-05-15 05:01:32,148] - TelnetServer server is running on port 34000
+  INFO [0x0000035c] [2017-05-15 05:01:32,148] - ---- logger is running ----
+ DEBUG [0x0000035c] [2017-05-15 05:01:32,148] - Components::process(): Request for the process of identity...
+  INFO [0x0000035c] [2017-05-15 05:01:39,287] - Components::process(): Found all the components!
+  INFO [0x0000035c] [2017-05-15 05:01:40,948] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5775, extaddr:nonsupport, extport:0,  from 10.0.75.1:5816/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:40,948] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x0000035c] [2017-05-15 05:01:40,948] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:41,047] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5783, extaddr:nonsupport, extport:0,  from 10.0.75.1:5817/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:41,048] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:41,268] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5784, extaddr:nonsupport, extport:0,  from 10.0.75.1:5818/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:41,268] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:41,368] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5776, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:5819/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:41,368] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:41,468] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5778, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:5820/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:41,468] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:42,087] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:5777, extaddr:nonsupport, extport:0,  from 10.0.75.1:5821/0/0/0.
+  INFO [0x0000035c] [2017-05-15 05:01:42,088] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x0000035c] [2017-05-15 05:01:59,228] - Logger::registerLogWatcher: addr=10.0.75.1:5869 is successfully!
+  INFO [0x00002ef0] [2017-05-15 05:04:34,156] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00002ef0] [2017-05-15 05:04:34,157] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00002ef0] [2017-05-15 05:04:34,157] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00002ef0] [2017-05-15 05:04:34,157] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00002ef0] [2017-05-15 05:04:34,159] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6088 )
+  INFO [0x00002ef0] [2017-05-15 05:04:34,159] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:6088, SOMAXCONN=5.
+  INFO [0x00002ef0] [2017-05-15 05:04:34,160] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6089 )
+  INFO [0x00002ef0] [2017-05-15 05:04:34,161] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:6089, SOMAXCONN=5.
+  INFO [0x00002ef0] [2017-05-15 05:04:34,172] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 11596 ----
+  INFO [0x00002ef0] [2017-05-15 05:04:34,173] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00002ef0] [2017-05-15 05:04:34,178] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002ef0] [2017-05-15 05:04:34,178] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,318] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,319] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,319] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,321] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,321] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,322] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,358] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00002ef0] [2017-05-15 05:04:34,394] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00002ef0] [2017-05-15 05:04:34,394] - Script::install(): KBExtra is successfully!
+S_INFO [0x00002ef0] [2017-05-15 05:04:34,396] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00002ef0] [2017-05-15 05:04:34,397] - TelnetServer server is running on port 34000
+  INFO [0x00002ef0] [2017-05-15 05:04:34,398] - ---- logger is running ----
+ DEBUG [0x00002ef0] [2017-05-15 05:04:34,398] - Components::process(): Request for the process of identity...
+ DEBUG [0x00002ef0] [2017-05-15 05:04:40,997] - ServerApp::lookApp: 10.0.75.1:6106/0/0/0
+  INFO [0x00002ef0] [2017-05-15 05:04:41,536] - Components::process(): Found all the components!
+  INFO [0x00002ef0] [2017-05-15 05:04:41,896] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6080, extaddr:nonsupport, extport:0,  from 10.0.75.1:6111/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:41,896] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00002ef0] [2017-05-15 05:04:41,897] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:43,216] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6086, extaddr:nonsupport, extport:0,  from 10.0.75.1:6117/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:43,217] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:43,237] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6087, extaddr:nonsupport, extport:0,  from 10.0.75.1:6118/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:43,237] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:43,337] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6081, extaddr:nonsupport, extport:0,  from 10.0.75.1:6119/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:43,337] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:43,437] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6079, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:6120/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:43,438] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:43,656] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6082, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:6121/0/0/0.
+  INFO [0x00002ef0] [2017-05-15 05:04:43,656] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00002ef0] [2017-05-15 05:04:47,097] - Logger::registerLogWatcher: addr=10.0.75.1:6129 is successfully!
+  INFO [0x00003158] [2017-05-15 05:07:05,870] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00003158] [2017-05-15 05:07:05,871] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00003158] [2017-05-15 05:07:05,871] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00003158] [2017-05-15 05:07:05,871] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00003158] [2017-05-15 05:07:05,874] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6342 )
+  INFO [0x00003158] [2017-05-15 05:07:05,874] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:6342, SOMAXCONN=5.
+  INFO [0x00003158] [2017-05-15 05:07:05,875] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6343 )
+  INFO [0x00003158] [2017-05-15 05:07:05,875] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:6343, SOMAXCONN=5.
+  INFO [0x00003158] [2017-05-15 05:07:05,880] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 10144 ----
+  INFO [0x00003158] [2017-05-15 05:07:05,885] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00003158] [2017-05-15 05:07:05,885] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00003158] [2017-05-15 05:07:05,885] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00003158] [2017-05-15 05:07:06,041] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00003158] [2017-05-15 05:07:06,042] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00003158] [2017-05-15 05:07:06,042] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00003158] [2017-05-15 05:07:06,044] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00003158] [2017-05-15 05:07:06,044] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00003158] [2017-05-15 05:07:06,046] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00003158] [2017-05-15 05:07:06,090] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00003158] [2017-05-15 05:07:06,152] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00003158] [2017-05-15 05:07:06,153] - Script::install(): KBExtra is successfully!
+S_INFO [0x00003158] [2017-05-15 05:07:06,155] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00003158] [2017-05-15 05:07:06,155] - TelnetServer server is running on port 34000
+  INFO [0x00003158] [2017-05-15 05:07:06,157] - ---- logger is running ----
+ DEBUG [0x00003158] [2017-05-15 05:07:06,158] - Components::process(): Request for the process of identity...
+  INFO [0x00003158] [2017-05-15 05:07:12,635] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6341, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:6360/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:12,636] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00003158] [2017-05-15 05:07:12,636] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00003158] [2017-05-15 05:07:13,276] - Components::process(): Found all the components!
+  INFO [0x00003158] [2017-05-15 05:07:13,761] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6339, extaddr:nonsupport, extport:0,  from 10.0.75.1:6363/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:13,762] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00003158] [2017-05-15 05:07:14,155] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6344, extaddr:nonsupport, extport:0,  from 10.0.75.1:6364/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:14,156] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00003158] [2017-05-15 05:07:14,375] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6340, extaddr:nonsupport, extport:0,  from 10.0.75.1:6367/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:14,375] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00003158] [2017-05-15 05:07:14,775] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6338, extaddr:nonsupport, extport:0,  from 10.0.75.1:6368/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:14,775] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00003158] [2017-05-15 05:07:15,175] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6336, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:6370/0/0/0.
+  INFO [0x00003158] [2017-05-15 05:07:15,175] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x00003158] [2017-05-15 05:07:16,636] - ServerApp::lookApp: 10.0.75.1:6377/0/0/0
+  INFO [0x00003158] [2017-05-15 05:07:18,036] - Logger::registerLogWatcher: addr=10.0.75.1:6384 is successfully!
+  INFO [0x00001334] [2017-05-15 05:10:15,981] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00001334] [2017-05-15 05:10:15,982] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00001334] [2017-05-15 05:10:15,982] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00001334] [2017-05-15 05:10:15,982] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00001334] [2017-05-15 05:10:15,984] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6653 )
+  INFO [0x00001334] [2017-05-15 05:10:15,984] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:6653, SOMAXCONN=5.
+  INFO [0x00001334] [2017-05-15 05:10:15,985] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6654 )
+  INFO [0x00001334] [2017-05-15 05:10:15,986] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:6654, SOMAXCONN=5.
+  INFO [0x00001334] [2017-05-15 05:10:15,999] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 12212 ----
+  INFO [0x00001334] [2017-05-15 05:10:15,999] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00001334] [2017-05-15 05:10:15,999] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001334] [2017-05-15 05:10:15,999] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00001334] [2017-05-15 05:10:16,175] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00001334] [2017-05-15 05:10:16,175] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00001334] [2017-05-15 05:10:16,176] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00001334] [2017-05-15 05:10:16,177] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00001334] [2017-05-15 05:10:16,178] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00001334] [2017-05-15 05:10:16,178] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00001334] [2017-05-15 05:10:16,214] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00001334] [2017-05-15 05:10:16,252] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00001334] [2017-05-15 05:10:16,252] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001334] [2017-05-15 05:10:16,260] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001334] [2017-05-15 05:10:16,260] - TelnetServer server is running on port 34000
+  INFO [0x00001334] [2017-05-15 05:10:16,260] - ---- logger is running ----
+ DEBUG [0x00001334] [2017-05-15 05:10:16,260] - Components::process(): Request for the process of identity...
+  INFO [0x00001334] [2017-05-15 05:10:23,380] - Components::process(): Found all the components!
+  INFO [0x00001334] [2017-05-15 05:10:24,060] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6649, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:6674/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:24,061] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00001334] [2017-05-15 05:10:24,061] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001334] [2017-05-15 05:10:24,981] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6651, extaddr:nonsupport, extport:0,  from 10.0.75.1:6675/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:24,981] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001334] [2017-05-15 05:10:24,981] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6652, extaddr:nonsupport, extport:0,  from 10.0.75.1:6676/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:24,981] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001334] [2017-05-15 05:10:25,080] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6647, extaddr:nonsupport, extport:0,  from 10.0.75.1:6677/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:25,081] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001334] [2017-05-15 05:10:25,401] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6650, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:6678/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:25,401] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001334] [2017-05-15 05:10:25,501] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6646, extaddr:nonsupport, extport:0,  from 10.0.75.1:6679/0/0/0.
+  INFO [0x00001334] [2017-05-15 05:10:25,501] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x00001334] [2017-05-15 05:10:31,180] - ServerApp::lookApp: 10.0.75.1:6697/0/0/0
+  INFO [0x00001334] [2017-05-15 05:10:42,439] - Logger::registerLogWatcher: addr=10.0.75.1:6726 is successfully!
+ DEBUG [0x00001334] [2017-05-15 05:11:01,359] - ServerApp::lookApp: 10.0.75.1:6760/0/0/0
+  INFO [0x00001334] [2017-05-15 05:11:02,579] - Logger::registerLogWatcher: addr=10.0.75.1:6765 is successfully!
+  INFO [0x00000dc0] [2017-05-15 05:11:42,613] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00000dc0] [2017-05-15 05:11:42,614] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00000dc0] [2017-05-15 05:11:42,614] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00000dc0] [2017-05-15 05:11:42,614] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00000dc0] [2017-05-15 05:11:42,618] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6828 )
+  INFO [0x00000dc0] [2017-05-15 05:11:42,619] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:6828, SOMAXCONN=5.
+  INFO [0x00000dc0] [2017-05-15 05:11:42,620] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:6829 )
+  INFO [0x00000dc0] [2017-05-15 05:11:42,620] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:6829, SOMAXCONN=5.
+  INFO [0x00000dc0] [2017-05-15 05:11:42,625] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 7392 ----
+  INFO [0x00000dc0] [2017-05-15 05:11:42,625] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00000dc0] [2017-05-15 05:11:42,626] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00000dc0] [2017-05-15 05:11:42,626] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,796] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,796] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,797] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,799] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,799] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,800] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,838] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00000dc0] [2017-05-15 05:11:42,908] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00000dc0] [2017-05-15 05:11:42,908] - Script::install(): KBExtra is successfully!
+S_INFO [0x00000dc0] [2017-05-15 05:11:42,910] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00000dc0] [2017-05-15 05:11:42,911] - TelnetServer server is running on port 34000
+  INFO [0x00000dc0] [2017-05-15 05:11:42,914] - ---- logger is running ----
+ DEBUG [0x00000dc0] [2017-05-15 05:11:42,937] - Components::process(): Request for the process of identity...
+  INFO [0x00000dc0] [2017-05-15 05:11:50,051] - Components::process(): Found all the components!
+  INFO [0x00000dc0] [2017-05-15 05:11:51,651] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6831, extaddr:nonsupport, extport:0,  from 10.0.75.1:6854/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:51,652] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00000dc0] [2017-05-15 05:11:51,652] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000dc0] [2017-05-15 05:11:51,751] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6832, extaddr:nonsupport, extport:0,  from 10.0.75.1:6855/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:51,751] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000dc0] [2017-05-15 05:11:51,971] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6833, extaddr:nonsupport, extport:0,  from 10.0.75.1:6856/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:51,971] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000dc0] [2017-05-15 05:11:52,170] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6830, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:6857/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:52,171] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00000dc0] [2017-05-15 05:11:52,171] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6834, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:6858/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:52,171] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00000dc0] [2017-05-15 05:11:52,270] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:6827, extaddr:nonsupport, extport:0,  from 10.0.75.1:6859/0/0/0.
+  INFO [0x00000dc0] [2017-05-15 05:11:52,271] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x00000dc0] [2017-05-15 05:12:10,830] - ServerApp::lookApp: 10.0.75.1:6903/0/0/0
+  INFO [0x00000dc0] [2017-05-15 05:12:12,190] - Logger::registerLogWatcher: addr=10.0.75.1:6909 is successfully!
+  INFO [0x00002be8] [2017-05-15 05:14:03,031] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00002be8] [2017-05-15 05:14:03,032] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00002be8] [2017-05-15 05:14:03,032] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00002be8] [2017-05-15 05:14:03,032] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00002be8] [2017-05-15 05:14:03,040] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7071 )
+  INFO [0x00002be8] [2017-05-15 05:14:03,040] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:7071, SOMAXCONN=5.
+  INFO [0x00002be8] [2017-05-15 05:14:03,042] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7072 )
+  INFO [0x00002be8] [2017-05-15 05:14:03,042] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:7072, SOMAXCONN=5.
+  INFO [0x00002be8] [2017-05-15 05:14:03,052] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 9196 ----
+  INFO [0x00002be8] [2017-05-15 05:14:03,053] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00002be8] [2017-05-15 05:14:03,054] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002be8] [2017-05-15 05:14:03,054] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,189] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,189] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,189] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,191] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,191] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,192] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,237] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00002be8] [2017-05-15 05:14:03,276] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00002be8] [2017-05-15 05:14:03,277] - Script::install(): KBExtra is successfully!
+S_INFO [0x00002be8] [2017-05-15 05:14:03,280] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00002be8] [2017-05-15 05:14:03,280] - TelnetServer server is running on port 34000
+  INFO [0x00002be8] [2017-05-15 05:14:03,281] - ---- logger is running ----
+ DEBUG [0x00002be8] [2017-05-15 05:14:03,282] - Components::process(): Request for the process of identity...
+ DEBUG [0x00002be8] [2017-05-15 05:14:09,639] - ServerApp::lookApp: 10.0.75.1:7096/0/0/0
+  INFO [0x00002be8] [2017-05-15 05:14:10,399] - Components::process(): Found all the components!
+  INFO [0x00002be8] [2017-05-15 05:14:10,859] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7073, extaddr:nonsupport, extport:0,  from 10.0.75.1:7098/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:10,859] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00002be8] [2017-05-15 05:14:10,860] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002be8] [2017-05-15 05:14:11,639] - Logger::registerLogWatcher: addr=10.0.75.1:7101 is successfully!
+  INFO [0x00002be8] [2017-05-15 05:14:11,964] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7064, extaddr:nonsupport, extport:0,  from 10.0.75.1:7102/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:11,964] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00002be8] [2017-05-15 05:14:12,380] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7068, extaddr:nonsupport, extport:0,  from 10.0.75.1:7105/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:12,381] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002be8] [2017-05-15 05:14:12,479] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7067, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:7106/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:12,480] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00002be8] [2017-05-15 05:14:12,579] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7069, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:7107/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:12,580] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002be8] [2017-05-15 05:14:12,799] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7070, extaddr:nonsupport, extport:0,  from 10.0.75.1:7108/0/0/0.
+  INFO [0x00002be8] [2017-05-15 05:14:12,799] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:17:56,447] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00001700] [2017-05-15 05:17:56,447] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00001700] [2017-05-15 05:17:56,448] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00001700] [2017-05-15 05:17:56,448] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00001700] [2017-05-15 05:17:56,460] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7435 )
+  INFO [0x00001700] [2017-05-15 05:17:56,460] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:7435, SOMAXCONN=5.
+  INFO [0x00001700] [2017-05-15 05:17:56,462] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7436 )
+  INFO [0x00001700] [2017-05-15 05:17:56,462] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:7436, SOMAXCONN=5.
+  INFO [0x00001700] [2017-05-15 05:17:56,466] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 13028 ----
+  INFO [0x00001700] [2017-05-15 05:17:56,475] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00001700] [2017-05-15 05:17:56,475] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001700] [2017-05-15 05:17:56,475] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00001700] [2017-05-15 05:17:56,612] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00001700] [2017-05-15 05:17:56,613] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00001700] [2017-05-15 05:17:56,613] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00001700] [2017-05-15 05:17:56,615] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00001700] [2017-05-15 05:17:56,616] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00001700] [2017-05-15 05:17:56,617] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00001700] [2017-05-15 05:17:56,689] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00001700] [2017-05-15 05:17:56,729] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00001700] [2017-05-15 05:17:56,730] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001700] [2017-05-15 05:17:56,732] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001700] [2017-05-15 05:17:56,732] - TelnetServer server is running on port 34000
+  INFO [0x00001700] [2017-05-15 05:17:56,736] - ---- logger is running ----
+ DEBUG [0x00001700] [2017-05-15 05:17:56,736] - Components::process(): Request for the process of identity...
+  INFO [0x00001700] [2017-05-15 05:18:02,851] - Logger::registerLogWatcher: addr=10.0.75.1:7462 is successfully!
+  INFO [0x00001700] [2017-05-15 05:18:03,858] - Components::process(): Found all the components!
+  INFO [0x00001700] [2017-05-15 05:18:04,951] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7433, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:7472/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:04,952] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00001700] [2017-05-15 05:18:04,952] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:18:05,371] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7432, extaddr:nonsupport, extport:0,  from 10.0.75.1:7476/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:05,372] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:18:05,471] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7434, extaddr:nonsupport, extport:0,  from 10.0.75.1:7477/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:05,471] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:18:05,791] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7437, extaddr:nonsupport, extport:0,  from 10.0.75.1:7478/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:05,791] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:18:05,992] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7439, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:7479/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:05,992] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001700] [2017-05-15 05:18:06,111] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7431, extaddr:nonsupport, extport:0,  from 10.0.75.1:7480/0/0/0.
+  INFO [0x00001700] [2017-05-15 05:18:06,112] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:04,802] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00000f74] [2017-05-15 05:21:04,803] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00000f74] [2017-05-15 05:21:04,803] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00000f74] [2017-05-15 05:21:04,803] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00000f74] [2017-05-15 05:21:04,805] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7743 )
+  INFO [0x00000f74] [2017-05-15 05:21:04,805] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:7743, SOMAXCONN=5.
+  INFO [0x00000f74] [2017-05-15 05:21:04,807] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:7744 )
+  INFO [0x00000f74] [2017-05-15 05:21:04,807] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:7744, SOMAXCONN=5.
+  INFO [0x00000f74] [2017-05-15 05:21:04,816] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 5512 ----
+  INFO [0x00000f74] [2017-05-15 05:21:04,820] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00000f74] [2017-05-15 05:21:04,820] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00000f74] [2017-05-15 05:21:04,820] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,990] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,990] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,991] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,995] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,995] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00000f74] [2017-05-15 05:21:04,996] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00000f74] [2017-05-15 05:21:05,090] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00000f74] [2017-05-15 05:21:05,172] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00000f74] [2017-05-15 05:21:05,173] - Script::install(): KBExtra is successfully!
+S_INFO [0x00000f74] [2017-05-15 05:21:05,180] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00000f74] [2017-05-15 05:21:05,180] - TelnetServer server is running on port 34000
+  INFO [0x00000f74] [2017-05-15 05:21:05,189] - ---- logger is running ----
+ DEBUG [0x00000f74] [2017-05-15 05:21:05,189] - Components::process(): Request for the process of identity...
+  INFO [0x00000f74] [2017-05-15 05:21:11,340] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7745, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:7754/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:11,340] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00000f74] [2017-05-15 05:21:11,340] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:11,340] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7748, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:7755/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:11,341] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:12,360] - Components::process(): Found all the components!
+  INFO [0x00000f74] [2017-05-15 05:21:14,320] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7750, extaddr:nonsupport, extport:0,  from 10.0.75.1:7773/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:14,321] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:14,321] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7749, extaddr:nonsupport, extport:0,  from 10.0.75.1:7774/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:14,321] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:14,640] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7747, extaddr:nonsupport, extport:0,  from 10.0.75.1:7777/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:14,640] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00000f74] [2017-05-15 05:21:15,260] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:7751, extaddr:nonsupport, extport:0,  from 10.0.75.1:7778/0/0/0.
+  INFO [0x00000f74] [2017-05-15 05:21:15,260] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:49:24,780] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00000e84] [2017-05-19 23:49:24,781] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+  INFO [0x00000e84] [2017-05-19 23:49:24,781] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+  INFO [0x00000e84] [2017-05-19 23:49:24,781] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+  INFO [0x00000e84] [2017-05-19 23:49:24,784] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42186 )
+  INFO [0x00000e84] [2017-05-19 23:49:24,784] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:42186, SOMAXCONN=5.
+  INFO [0x00000e84] [2017-05-19 23:49:24,785] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42187 )
+  INFO [0x00000e84] [2017-05-19 23:49:24,785] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42187, SOMAXCONN=5.
+  INFO [0x00000e84] [2017-05-19 23:49:24,789] - ---- logger Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: B75E6E1ECEBD4A92BED98139609C4F4F. Config: Debug X86. Built: 01:51:06 May  3 2017. AppID: 2000. UID: 54001. PID: 6732 ----
+  INFO [0x00000e84] [2017-05-19 23:49:24,789] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+  INFO [0x00000e84] [2017-05-19 23:49:24,790] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00000e84] [2017-05-19 23:49:24,790] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,990] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,991] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,991] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,994] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,995] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00000e84] [2017-05-19 23:49:24,996] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00000e84] [2017-05-19 23:49:25,128] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00000e84] [2017-05-19 23:49:25,232] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:02) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00000e84] [2017-05-19 23:49:25,232] - Script::install(): KBExtra is successfully!
+S_INFO [0x00000e84] [2017-05-19 23:49:25,242] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00000e84] [2017-05-19 23:49:25,243] - TelnetServer server is running on port 34000
+  INFO [0x00000e84] [2017-05-19 23:49:25,243] - ---- logger is running ----
+ DEBUG [0x00000e84] [2017-05-19 23:49:25,244] - Components::process(): Request for the process of identity...
+  INFO [0x00000e84] [2017-05-19 23:49:32,343] - Components::process(): Found all the components!
+  INFO [0x00000e84] [2017-05-19 23:49:38,702] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42218, extaddr:nonsupport, extport:0,  from 10.0.75.1:42219/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:49:38,702] - Components::addComponent: reset orderLog, uid=54001!
+  INFO [0x00000e84] [2017-05-19 23:49:38,703] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:49:44,582] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42235, extaddr:nonsupport, extport:0,  from 10.0.75.1:42236/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:49:44,583] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:49:52,682] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42247, extaddr:nonsupport, extport:0,  from 10.0.75.1:42248/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:49:52,683] - Components::addComponent[cellappmgr], uid=54001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:50:01,001] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42261, extaddr:10.0.75.1, extport:20015,  from 10.0.75.1:42262/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:50:01,001] - Components::addComponent[baseapp], uid=54001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:50:09,301] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42277, extaddr:nonsupport, extport:0,  from 10.0.75.1:42278/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:50:09,301] - Components::addComponent[cellapp], uid=54001, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00000e84] [2017-05-19 23:50:12,781] - ServerApp::onRegisterNewApp: uid:54001, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.0.75.1, intport:42283, extaddr:10.0.75.1, extport:20013,  from 10.0.75.1:42284/0/0/0.
+  INFO [0x00000e84] [2017-05-19 23:50:12,781] - Components::addComponent[loginapp], uid=54001, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1

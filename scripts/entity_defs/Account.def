@@ -1,0 +1,126 @@
+<root>
+
+	<Properties>
+				<memberType>
+							<Type>	INT8	</Type>
+							<Flags>	BASE	</Flags>
+							<Persistent>	true	</Persistent>
+				</memberType>
+				<money>
+						<Type>	INT32 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</money>
+				<barNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</barNum>
+				<sevenNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</sevenNum>
+				<starNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</starNum>
+				<watermelonNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</watermelonNum>
+				<bellNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</bellNum>
+				<snakemelonNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</snakemelonNum>
+				<orangeNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</orangeNum>
+				<appleNum>
+						<Type>	INT16 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</appleNum>
+				<winScore>
+						<Type>	INT32 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</winScore>
+				<betPaid>
+						<Type>	INT32 </Type>
+						<Flags>	BASE </Flags>
+						<Persistent>	true	</Persistent>
+				</betPaid>
+	</Properties>
+
+	<ClientMethods>
+				<onGetAccountInfo>
+						<Arg>ACCOUNT_INFO</Arg>
+				</onGetAccountInfo>
+	</ClientMethods>
+
+	<BaseMethods>
+				<depositOne>
+					<Exposed/>
+				</depositOne>
+				<depositTwo>
+					<Exposed/>
+				</depositTwo>
+				<getAccountInfo>
+					<Exposed/>
+				</getAccountInfo>
+				<pressBarButton>
+					<Exposed/>
+				</pressBarButton>
+				<pressSevenButton>
+					<Exposed/>
+				</pressSevenButton>
+				<pressStarButton>
+					<Exposed/>
+				</pressStarButton>
+				<pressWatermelonButton>
+					<Exposed/>
+				</pressWatermelonButton>
+				<pressBellButton>
+					<Exposed/>
+				</pressBellButton>
+				<pressSnakemelonButton>
+					<Exposed/>
+				</pressSnakemelonButton>
+				<pressOrangeButton>
+					<Exposed/>
+				</pressOrangeButton>
+				<pressAppleButton>
+					<Exposed/>
+				</pressAppleButton>
+				<pressStartButton>
+					<Exposed/>
+				</pressStartButton>
+				<pressBigButton>
+					<Exposed/>
+				</pressBigButton>
+				<pressSmallButton>
+					<Exposed/>
+				</pressSmallButton>
+				<pressWinScoreToMoneyButton>
+					<Exposed/>
+				</pressWinScoreToMoneyButton>
+				<pressClearButton>
+					<Exposed/>
+				</pressClearButton>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

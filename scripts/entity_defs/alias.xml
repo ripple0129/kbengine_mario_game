@@ -1,0 +1,43 @@
+<root>
+  <ACCOUNT_INFO>	FIXED_DICT
+  	<Properties>
+  		<money>
+  			<Type>	INT32	</Type>
+  		</money>
+      <barNum>
+  			<Type>	INT16	</Type>
+  		</barNum>
+      <sevenNum>
+  			<Type>	INT16	</Type>
+  		</sevenNum>
+      <starNum>
+  			<Type>	INT16	</Type>
+  		</starNum>
+      <watermelonNum>
+  			<Type>	INT16	</Type>
+  		</watermelonNum>
+      <bellNum>
+  			<Type>	INT16	</Type>
+  		</bellNum>
+      <snakemelonNum>
+  			<Type>	INT16	</Type>
+  		</snakemelonNum>
+      <orangeNum>
+  			<Type>	INT16	</Type>
+  		</orangeNum>
+      <appleNum>
+  			<Type>	INT16	</Type>
+  		</appleNum>
+      <winScore>
+  			<Type>	INT32	</Type>
+  		</winScore>
+      <resultItem>
+  			<Type>	UNICODE	</Type>
+  		</resultItem>
+      <bigSmall>
+  			<Type>	INT8	</Type>
+  		</bigSmall>
+  	</Properties>
+  </ACCOUNT_INFO>
+
+</root>

@@ -1,0 +1,22 @@
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:49 636] - depositTwo called: 0
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:49 737] - depositTwo called: 2000
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:49 836] - depositTwo called: 4000
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:50 036] - depositTwo called: 6000
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:50 236] - depositTwo called: 8000
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:01:50 336] - depositTwo called: 10000
+   DEBUG    baseapp01 54001 7001  [2017-05-20 00:17:37 113] - Account::onClientDeath: 1.
+   S_DBG    baseapp01 54001 7001  [2017-05-20 00:17:37 114] - Account[1].onClientDeath:
+   DEBUG    baseapp01 54001 7001  [2017-05-20 00:17:37 114] - Account::~Account(): 1
+   DEBUG    baseapp01 54001 7001  [2017-05-20 00:17:52 114] - PendingLoginMgr::add: 222, size=1.
+   DEBUG    baseapp01 54001 7001  [2017-05-20 00:17:52 214] - Channel::handshake: websocket(10.0.75.1:44645/0/0/0) successfully!
+    INFO    baseapp01 54001 7001  [2017-05-20 00:17:52 413] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.0.75.1:44645/0/0/0
+ WARNING    baseapp01 54001 7001  [2017-05-20 00:17:52 413] - Baseapp::onHello: client is not encrypted, addr=10.0.75.1:44645/0/0/0
+    INFO    baseapp01 54001 7001  [2017-05-20 00:17:52 513] - Baseapp::loginBaseapp: new user[222], channel[10.0.75.1:44645/0/0/0].
+   DEBUG    baseapp01 54001 7001  [2017-05-20 00:17:52 613] - PendingLoginMgr::remove: 222, size=0.
+    INFO    baseapp01 54001 7001  [2017-05-20 00:17:52 613] - EntityApp::createEntity: new Account 2
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:17:52 615] - {'snakemelon': '10', 'little_bell': '5', 'little_orange': '5', 'little_star': '10', 'orange': '10', 'star': '20', 'little_snakemelon': '5', 'little_seven': '10', 'little_watermelon': '10', 'watermelon': '20', 'apple': '5', 'seven': '20', 'bar': '50', 'little_apple': '2', 'bell': '10', 'little_bar': '25'}
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:17:52 619] - {'snakemelon': '3%', 'left_once_again': '8%', 'little_bell': '4%', 'little_orange': '4%', 'right_once_again': '8%', 'little_star': '3.2%', 'orange': '3%', 'star': '2%', 'little_snakemelon': '4%', 'little_seven': '3.2%', 'little_watermelon': '3.2%', 'watermelon': '2%', 'apple': '27%', 'seven': '2%', 'bar': '0.1%', 'little_apple': '20%', 'bell': '3%', 'little_bar': '0.3%'}
+  S_INFO    baseapp01 54001 7001  [2017-05-20 00:17:52 622] - account[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 10.0.75.1:44645.
+    INFO    baseapp01 54001 7001  [2017-05-20 00:17:52 622] - Baseapp::onQueryAccountCBFromDbmgr: user=222, uuid=6421880936870641664, entityID=2, flags=0, deadline=0.
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:17:59 213] - depositTwo called: 0
+   S_ERR    baseapp01 54001 7001  [2017-05-20 00:19:06 812] - depositOne called: 1735

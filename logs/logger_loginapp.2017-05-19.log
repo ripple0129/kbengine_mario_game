@@ -1,0 +1,67 @@
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 540] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 541] - Resmgr::initialize: KBE_ROOT=C:/kbengine/
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 541] - Resmgr::initialize: KBE_RES_PATH=C:/kbengine/kbe/res/;C:/kbengine/web-mobile/;C:/kbengine/web-mobile/scripts/;C:/kbengine/web-mobile/res/
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 541] - Resmgr::initialize: KBE_BIN_PATH=C:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 546] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:20013 )
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 546] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 10.0.75.1:20013, SOMAXCONN=128.
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 10.0.75.1 ( 10.0.75.1:42283 )
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - NetworkInterface::recreateListeningSocket(INTERNAL): address 10.0.75.1:42283, SOMAXCONN=128.
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - server-configs:
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - 	internalAddr : 10.0.75.1:42283
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - 	externalAddr : 10.0.75.1:20013
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 548] - 	componentID : 9000
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 765] - Components::findLogger: found logger, addr:10.0.75.1:42187
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 765] - Components::addComponent: reset orderLog, uid=54001!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 765] - Components::addComponent[logger], uid=54001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 774] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 68AB0B61C4A3C03CD0C0349737585262. Config: Debug X86. Built: 01:51:51 May  3 2017. AppID: 9000. UID: 54001. PID: 9324 ----
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 774] - Server : Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz with 2097151kB RAM
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 775] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:12 775] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 943] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 944] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 945] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 950] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 950] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 951] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:12 991] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:13 029] - Script::install(): is successfully, Python=(3.4.2 (default, May  3 2017, 01:51:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:13 030] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 54001 9000  [2017-05-19 23:50:13 035] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:13 036] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:13 273] - ---- loginapp is running ----
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:50:13 273] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:20 375] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:20 398] - Components::findComponents: found dbmgr, addr:10.0.75.1:42218
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:20 398] - Components::addComponent: reset orderLog, uid=54001!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:20 399] - Components::addComponent[dbmgr], uid=54001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:20 400] - Components::findComponents: found dbmgr, addr:10.0.75.1:42218
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:22 415] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:22 419] - Components::findComponents: found baseappmgr, addr:10.0.75.1:42235
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:22 419] - Components::addComponent[baseappmgr], uid=54001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:22 419] - Components::findComponents: found baseappmgr, addr:10.0.75.1:42235
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:24 442] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:24 455] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:24 469] - Components::process(): Found all the components!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:24 476] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:27 475] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=8EA544894FD89B402A1A57E6BCB92726.
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:50:27 475] - HTTPCBHandler::bind: 10.0.75.1:21103
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:04 730] - Channel::handshake: websocket(127.0.0.1:42843/0/0/0) successfully!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:56:04 767] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:42843/0/0/0
+ WARNING   loginapp-1 54001 9000  [2017-05-19 23:56:04 768] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:42843/0/0/0
+  S_INFO   loginapp-1 54001 9000  [2017-05-19 23:56:04 771] - onRequestCreateAccount() 123
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:04 771] - Loginapp::_createAccount: accountName=123, passwordsize=3, type=1, oldType=3.
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:04 771] - PendingLoginMgr::add: 123, size=1.
+  S_INFO   loginapp-1 54001 9000  [2017-05-19 23:56:04 987] - onCreateAccountCallbackFromDB() accountName=123, errorno=0
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:04 987] - Loginapp::onReqCreateAccountResult: accountName=123, failedcode=0.
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:04 987] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:05 787] - Channel::handshake: websocket(127.0.0.1:42847/0/0/0) successfully!
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:56:05 807] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:42847/0/0/0
+ WARNING   loginapp-1 54001 9000  [2017-05-19 23:56:05 807] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:42847/0/0/0
+  S_INFO   loginapp-1 54001 9000  [2017-05-19 23:56:05 807] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:05 807] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp-1 54001 9000  [2017-05-19 23:56:05 807] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas=web-mobile.
+  S_INFO   loginapp-1 54001 9000  [2017-05-19 23:56:05 967] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=0
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:06 047] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=10.0.75.1:20015.
+   DEBUG   loginapp-1 54001 9000  [2017-05-19 23:56:06 047] - PendingLoginMgr::remove: 123, size=0.
